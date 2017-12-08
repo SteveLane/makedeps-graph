@@ -37,3 +37,5 @@ If you built the container from the dockerfile in this repo:
 ```sh
 $ docker run -v $(pwd):/tmp/graph makedeps-graph
 ```
+
+You'll notice here that I mount the project directory - this is to make sure that the `Makefile` is available for the container to process.

@@ -1,5 +1,7 @@
 # Make dependencies graph
 
+[![Docker Automated build](https://img.shields.io/docker/automated/stevelane/makedeps-graph.svg?style=for-the-badge)]() [![Docker Build Status](https://img.shields.io/docker/build/stevelane/makedeps-graph.svg?style=for-the-badge)]()
+
 This repository contains a (most likely bloated) dockerfile and script to create a dependency graph for a Makefile. It uses [https://github.com/lindenb/makefile2graph](https://github.com/lindenb/makefile2graph) to create a `.dot` and `.png` of the dependency graph.
 
 ## Why use docker?

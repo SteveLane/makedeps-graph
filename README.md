@@ -22,7 +22,7 @@ $ make
 
 As a nice side-effect of using `make` to build the container, you'll get a dependency graph of the `Makefile` for this repo:
 
-![](figs/deps.png)
+![](https://github.com/SteveLane/makedeps-graph/blob/master/img/deps.png)
 
 Once you have the container use one of the following two commands to create the graph, depending on how you got the container.
 
